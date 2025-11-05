@@ -30,10 +30,6 @@ print(triangles)
 # The current upstream JavaScript implementation and this Python port produce
 # the same triangulation when run today.
 
-
-# Calculate deviation (area error)
-err = deviation(flat['vertices'], flat['holes'], flat['dimensions'], triangles)
-print(f"Deviation: {err}")
 ```
 
 ## License
